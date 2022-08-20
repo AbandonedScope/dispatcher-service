@@ -2,7 +2,7 @@ name: Commit Stage
 on: push
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: abandonedscope/catalog-service
+  IMAGE_NAME: abandonedscope/dispatcher-service
   VERSION: latest
 
 jobs:
