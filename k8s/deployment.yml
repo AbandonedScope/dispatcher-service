@@ -31,8 +31,6 @@ spec:
           env:
             - name: SPRING_CLOUD_CONFIG_URI
               value: http://config-service
-            - name: SPRING_RABBITMQ_HOST
-              value: polar-rabitmq
           livenessProbe:
             httpGet:
               path: /actuator/health/liveness
