@@ -8,6 +8,7 @@ spring:
     name: dispatcher-service
   cloud:
     config:
+      enabled: false
       uri: http://localhost:8888
       request-read-timeout: 5000
       request-connect-timeout: 5000
